@@ -18,8 +18,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
     
+    var initialColor: UIColor = .white
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        var red: CGFloat = 0
+        var green: CGFloat = 0
+        var blue: CGFloat = 0
+        initialColor.getRed(&red, green: &green, blue: &blue, alpha: nil)
+        redSlider.value = Float(red)
+        greenSlider.value = Float(green)
+        blueSlider.value = Float(blue)
         colorView.layer.cornerRadius = 15
         setColor()
         setValue()

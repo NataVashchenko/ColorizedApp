@@ -13,6 +13,7 @@
 		E1CCBF0A28F60F7800EA2C2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CCBF0828F60F7800EA2C2B /* Main.storyboard */; };
 		E1CCBF0C28F60F7D00EA2C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1CCBF0B28F60F7D00EA2C2B /* Assets.xcassets */; };
 		E1CCBF0F28F60F7D00EA2C2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CCBF0D28F60F7D00EA2C2B /* LaunchScreen.storyboard */; };
+		E1CCBF1728F70B3C00EA2C2B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CCBF1628F70B3B00EA2C2B /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E1CCBF0B28F60F7D00EA2C2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1CCBF0E28F60F7D00EA2C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1CCBF1028F60F7D00EA2C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CCBF1628F70B3B00EA2C2B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E1CCBF0B28F60F7D00EA2C2B /* Assets.xcassets */,
 				E1CCBF0D28F60F7D00EA2C2B /* LaunchScreen.storyboard */,
 				E1CCBF1028F60F7D00EA2C2B /* Info.plist */,
+				E1CCBF1628F70B3B00EA2C2B /* HomeViewController.swift */,
 			);
 			path = ColorizedApp;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				E1CCBF0728F60F7800EA2C2B /* ViewController.swift in Sources */,
 				E1CCBF0328F60F7800EA2C2B /* AppDelegate.swift in Sources */,
 				E1CCBF0528F60F7800EA2C2B /* SceneDelegate.swift in Sources */,
+				E1CCBF1728F70B3C00EA2C2B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
